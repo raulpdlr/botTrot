@@ -1,0 +1,43 @@
+
+
+15 m
+
+The spread must be 1-3 (maximum 4) for EURCHF, USDCAD and USDCHF
+
+EURUSD Settings:
+Scalper_EURUSD_TakeProfit=16;
+Scalper_EURUSD_StopLoss=69;
+Scalper_StartWorkTimeHour=20;
+Scalper_EndWorkTimeHour=23;
+other settings - default.
+
+
+EURCHF Settings:
+Scalper_StartWorkTimeHour=20
+Scalper_EndWorkTimeHour=24
+Scalper_EURCHF_TakeProfit=3;
+Scalper_EURCHF_StopLoss=93;
+
+USDCAD Settings:
+Scalper_StartWorkTimeHour=21;
+Scalper_EndWorkTimeHour=23;
+Scalper_USDCAD_TakeProfit=9;
+Scalper_USDCAD_StopLoss=114;
+
+GBPUSD Settings:
+Scalper_StartWorkTimeHour=20;
+Scalper_EndWorkTimeHour=23;
+Scalper_GBPUSD_TakeProfit=11;
+Scalper_GBPUSD_StopLoss=86;
+
+USDCHF Settings:
+Scalper_StartWorkTimeHour=20;
+Scalper_EndWorkTimeHour=23;
+Scalper_USDCHF_TakeProfit=9;
+Scalper_USDCHF_StopLoss=82;
+
+GBPCHF Settings:
+Scalper_StartWorkTimeHour=21;
+Scalper_EndWorkTimeHour=24;
+Scalper_GBPCHF_TakeProfit=11;
+Scalper_GBPCHF_StopLoss=113

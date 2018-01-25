@@ -1,9 +1,0 @@
-Q : There's a warning when I attched to chart and use auto gmt offset.
-Warning as this: Warning, use manual GMToffsets only on backtest.
-Automatic GMT offset calculation works only on live/demo trading
-and should be set as FALSE for backtests - strategy testing.
-Is this normal? Or should I turn auto gmt offset to false? 
-
-
-A : I turned AutoGMTOffset off and set GMT offset manually. No more warning message and seems to be working just fine on demo. Go figure. Maybe it's a bug. Oh yeah, it's definitely a bug. I looked at the code and an "else" operation is either omitted or misplaced. The message should only be issued if UseAutoGMTOffset is set to FALSE.
-So, ignore this message and be happy. Everything is working as (ahem) designed. 
